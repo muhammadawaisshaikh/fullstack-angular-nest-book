@@ -1,4 +1,5 @@
 // Generic Interface
+
 interface Pair<T, U> {
     first: T;
     second: U;

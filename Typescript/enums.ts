@@ -28,7 +28,13 @@ enum Weekday {
     Thursday,
     Friday,
     Saturday,
-  }
-  
-  let dayName: string = Weekday[2]; // Accessing the name from the value
-  console.log(`Day: ${dayName}`); // Output: Day: Tuesday
+}
+
+let dayName: string = Weekday[2]; // Accessing the name from the value
+console.log(`Day: ${dayName}`); // Output: Day: Tuesday
+
+// Heterogeneous Enums
+enum Status {
+    Active = 1,
+    Inactive = "INACTIVE",
+}
